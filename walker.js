@@ -29,7 +29,7 @@ var walker = function(obj, cb){
         } else {
             cb(key, val);
         }
-    }
+    };
     looper(obj);
 };
 
